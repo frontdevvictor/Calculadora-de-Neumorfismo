@@ -109,5 +109,25 @@ body{
 }
 
 .dark{
-    
+    background: #282c2f;
+}
+
+.dark .calculator{
+    background: #33393e;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25),
+        -15px -15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dark .calculator .buttons #value{
+    background: #33393e;
+    color: #eee;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+        inset -15px -15px 20px rgba(255, 255, 255, 0.1);
+}
+
+.dark .calculator .buttons span{
+    color: #eee;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25),
+        -5px -5px  10px rgba(255, 255, 255, 0.1);
 }
